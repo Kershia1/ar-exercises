@@ -24,4 +24,4 @@ puts store.name #output => @store2
 store = Store.find_by(id: 1)
 store.update(name: "Dept Store")
 
-puts store.name #output => Dept Store
+puts Store.name #output => Dept Store
