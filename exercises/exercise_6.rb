@@ -33,7 +33,7 @@ Store.find(1).employees.create(first_name: "Khurram", last_name: "Virani", hourl
 
 Store.find(2).employees.create([
  { first_name: "KhurramRano", last_name: "Virani", hourly_rate: 60},
- { first_name: "Moo", last_name: "Mew", hourly_rate: 20},
+ { first_name: "Moo", last_name: "Mew", hourly_rate: 50},
  { first_name: "Greybeard", last_name: "McGee", hourly_rate: 40}])
 
 
