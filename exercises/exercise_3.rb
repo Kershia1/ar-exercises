@@ -17,4 +17,6 @@ store.update(name: "@store3")
 
 store.destroy
 
-puts store.count #output => `method_missing': undefined method `count' for #<Store id: 3,
+# puts store.count #output => `method_missing': undefined method `count' for #<Store id: 3, because I was calling on the instance and not the class
+
+puts Store.count #output => SELECT COUNT(*) FROM "stores" => 2
